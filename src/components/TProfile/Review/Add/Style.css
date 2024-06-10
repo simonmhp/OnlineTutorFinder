@@ -1,0 +1,80 @@
+.card_TPadd {
+    position: relative;
+    width: 650px;
+    height: 650px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.Xcard_TRadd {
+    position: relative;
+    padding-top: 10px;
+    width: 550px;
+    height: 380px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.card_TPadd .content_TpEdit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.Xcard_TRadd .content_TpEdit {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.card_TPadd .content_TpEdit .data,
+.Xcard_TRadd .content_TpEdit .data {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row; /* Set elements in column format */
+    align-items: center; /* Center elements horizontally */
+}
+
+.card_TPadd .content_TpEdit .data .actionBtn,
+.Xcard_TRadd .content_TpEdit .data .actionBtn {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card_TPadd .content_TpEdit .data .actionBtn button,
+.Xcard_TRadd .content_TpEdit .data .actionBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.card_TPadd .content_TpEdit .data .actionBtn button:nth-child(2),
+.Xcard_TRadd .content_TpEdit .data .actionBtn button:nth-child(2) {
+    border: 1px solid #999;
+    color: #999;
+    background: #fff;
+}
+
+.Xcard_TRadd .content_TpEdit .data h1 {
+    color: #ff5f5f;
+}

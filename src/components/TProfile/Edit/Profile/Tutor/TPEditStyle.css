@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+
+.Dcard_TPEdit  {
+  position: relative;
+  width: 590px;
+  height: 650px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+  transition: 0.5s;
+  /* margin-top: 30px; */
+}
+
+.input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+
+.imgBx {
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Dcard_TPEdit  .content_TpEdit {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.Dcard_TPEdit  .content_TpEdit .details {
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.Dcard_TPEdit  .contecontent_TpEditnt .details .data h3 span {
+  font-size: 0.85em;
+  font-weight: 400;
+  opacity: 0.5;
+}
+.Dcard_TPEdit  .content_TpEdit .details .actionBtn {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.Dcard_TPEdit  .content_TpEdit .details .actionBtn button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  background: #ff5f95;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Dcard_TPEdit  .content_TpEdit .details .actionBtn button:nth-child(2){
+  border: 1px solid #999;
+  color: #999;
+  background: #fff;
+}
+
+.Dcard_TPEdit .input-field {
+  max-width: 380px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 55px;
+  border-radius: 55px;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  padding: 0 0.4rem;
+  position: relative;
+}
+  
+.Dcard_TPEdit .input-field i {
+  text-align: center;
+  line-height: 55px;
+  color: #acacac;
+  transition: 0.5s;
+  font-size: 1.1rem;
+}
+  
+.Dcard_TPEdit .input-field input {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #333;
+}
+  
+.Dcard_TPEdit .input-field input::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.Dcard_TPEdit .input-field textarea {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #333;
+  resize: none; /* Prevent textarea from being resizable */
+}
+  
+.Dcard_TPEdit .input-field textarea::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.Dcard_TPEdit .input-field select {
+  background: none;
+  outline: none;
+  border: none;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #aaa;
+  resize: none;
+}
+
+.Dcard_TPEdit .input-field select::placeholder {
+  color: #aaa;
+  font-weight: 500;
+}
+
+.Dcard_TPEdit h2{
+  font-weight: 500;
+}
+
+.Dcard_TPEdit  .content_TpEdit .details .ImgBtn button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  border: 1px solid #999;
+  color: #7c8558;
+  background: #fff;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.Dcard_TPEdit  .content_TpEdit .details .SubmitBtn button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: 500;
+  background: #9aa56e;
+  color: #fff;
+  cursor: pointer;
+}
+
+  /* Style for cancel icon */
+  .cancel-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #aaa; /* Initial color */
+  }
+  
+/* Hover effect for cancel icon */
+.cancel-icon:hover {
+  color: red; /* Change color on hover */
+}
+
+.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay-card {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-card.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+

@@ -1,0 +1,71 @@
+/* Define font family */
+.custom-card-main {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Main container style */
+  .custom-card-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Card style */
+  .custom-card {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  
+  /* Title style */
+  .custom-card h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input and button container style */
+  .custom-card .input-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Input style */
+  .custom-card input[type="text"],
+  .custom-card textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  /* Button style */
+  .custom-card button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  .custom-card button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Media query for small devices */
+  @media (max-width: 767px) {
+    /* Adjust max-width of the card for smaller screens */
+    .custom-card {
+      max-width: 90%;
+    }
+  }
+  

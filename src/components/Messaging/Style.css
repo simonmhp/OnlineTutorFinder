@@ -1,0 +1,36 @@
+.msgcard {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .msgcontainer {
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(164, 216, 228, 0.75);
+    backdrop-filter: blur(19px) saturate(180%);
+    border-radius: 12px;
+    border: 1px solid rgba(225, 225, 225, 0.125);
+    color: aliceblue;
+    display: flex;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .msgcontainer {
+      width: auto;
+      height: 90vh;
+      overflow:auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .msgcontainer {
+      width: auto;
+      height: 90vh;
+    }
+  }
+
+
+  
+  

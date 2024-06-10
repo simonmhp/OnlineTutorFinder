@@ -1,0 +1,119 @@
+.card_rq {
+    position: relative;
+    width: 590px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+    margin-top: 30px;
+    padding: 40px;
+  }
+  
+  .card_rq .content_TpEdit {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  
+  .card_rq .Hsessionimage {
+    flex: 0 0 150px;
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    margin-right: 20px;
+  }
+  
+  .card_rq .Hsessionimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card_rq .data {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card_rq .data h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .card_rq .data p {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .card_rq .data p strong {
+    font-weight: 600;
+  }
+  
+  .card_rq .actionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card_rq .actionBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .card_rq .actionBtn button:nth-child(1) {
+    background: #ff5f95;
+    color: #fff;
+  }
+  
+  .card_rq .actionBtn button:nth-child(2) {
+    background: #9aa56e;
+    color: #fff;
+  }
+  
+  .card_rq .actionBtn button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 600px) {
+    .card_rq {
+      width: 350px;
+      padding: 20px;
+    }
+  
+    .card_rq .content_TpEdit {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card_rq .Hsessionimage {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .card_rq .actionBtn {
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+  
+    .card_rq .actionBtn button {
+      width: 100%;
+      padding: 10px;
+    }
+  }
+  

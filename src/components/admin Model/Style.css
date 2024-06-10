@@ -1,0 +1,243 @@
+/* TPStyle.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.card-A {
+    position: relative;
+    width: 100%;
+    max-width: 390px;
+    height: 330px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+/* .card-A:hover {
+    height: 330px;
+} */
+
+.card-A-footer {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    position: relative;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-A-footer h6 {
+    opacity: 0.8;
+}
+
+.imgBx {
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.details {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.details h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.details h2 span {
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.data h3 {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.data h3 span {
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.actionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.actionBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #ff5f95;
+    color: #fff;
+    cursor: pointer;
+}
+
+.actionBtn button:nth-child(2) {
+    border: 1px solid #999;
+    color: #999;
+    background: #fff;
+}
+
+.card-A-footer {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.CancelBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #817057;
+    color: #fff;
+    cursor: pointer;
+  }
+
+
+.CancelBtn button:hover {
+    background: rgb(226, 145, 115);
+}
+
+/*
+    adminModel.jsx
+*/
+
+/* Style.css */
+
+.List-container {
+    margin: 20px;
+  }
+  
+  .List-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .List-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .List-scroll {
+    max-height: 300px; /* Set the maximum height for scrolling */
+    overflow-y: auto;
+  }
+  
+  .List ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .List .username-row {
+    display: flex; /* Set display to flex */
+    justify-content: space-between; /* Align items with space between */
+    align-items: center; /* Align items to center vertically */
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Add a border between rows */
+  }
+  
+  .List .username-row:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+  }
+  
+  .List .username-row span {
+    cursor: pointer; /* Add pointer cursor to the username */
+  }
+
+  .List .TutorViewBtn,
+  .List .TutorDeleteBtn {
+    padding: 6px 12px; /* Adjusted padding for symmetry */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .List .TutorViewBtn {
+    background: #ebc03e;
+    color: #fff;
+  }
+  
+  .List .TutorDeleteBtn {
+    background: #e14141;
+    color: #fff;
+    margin-left: 10px; /* Add margin between buttons */
+  }
+
+  .search-input {
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 1em;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color when input is focused */
+  }
+
+  
+  
+  
+  

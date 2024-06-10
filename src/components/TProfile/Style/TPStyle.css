@@ -1,0 +1,576 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.card-Tp {
+    position: relative;
+    width: 100%; /* Set width to 100% */
+    max-width: 390px; /* Limit maximum width */
+    height: 190px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.card-Tp:hover {
+    height: 530px;
+}
+
+
+
+/* @media (max-width: 991px) {
+    .card {
+      width: 100%;
+      padding: 10px;
+    }
+    .card-Tp {
+      width: 100%;
+      padding: 20px;
+    }
+    .content .details h2 {
+      font-size: 1.5em;
+    }
+    .data h3 {
+      font-size: 1em;
+    }
+    .SactionBtn button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  } */
+  
+
+  
+
+.card-Tp-footer {
+    position: absolute;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    position: relative;
+    padding-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px; 
+    text-align: center;
+}
+
+
+.card-Tp-footer h6 {
+    opacity: 0.8;
+    
+}
+
+.card-Tp .edit-icon {
+    /* Position the icon absolutely within the card-Tp container */
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    color: #333; 
+    cursor: pointer;
+}
+
+.imgBx {
+    position: absolute;
+    left: 50%;
+    top: -50px;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-Tp:hover .imgBx {
+    width: 200px;
+    height: 200px;
+}
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-Tp .content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.card-Tp .content .details {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.5s;
+    transform: translateY(290px);
+}
+
+.card-Tp:hover .content .details{
+    transform: translateY(0px);
+}
+
+.card-Tp .content .details h2 {
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.card-Tp .content .details h2 span {
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.card-Tp .content .details .data {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.card-Tp .content .details .data h3{
+    font-size: 1em;
+    color: #555;
+    line-height: 1.2em;
+    font-weight: 600;
+}
+
+.card-Tp .content .details .data h3 span {
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.5;
+}
+.card-Tp .content .details .actionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-Tp .content .details .SactionBtn {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-Tp .content .details .actionBtn button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #ff5f95;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-Tp .content .details .SactionBtn button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #35b016;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-Tp .content .details .actionBtn button:nth-child(2){
+    border: 1px solid #999;
+    color: #999;
+    background: #fff;
+
+}
+
+.card-Tp .content .details .SactionBtn button:nth-child(2){
+    border: 1px solid #999;
+    color: #999;
+    background: #fff;
+
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/* TPDetails CSS */
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+
+.card_TPDetails {
+    max-width: 100%;
+    height: auto; 
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+    margin-top: 20px; 
+}
+
+.content_TpDetails {
+    padding: 10px;
+    text-align: center;
+}
+
+.tpcontainer {
+    
+    justify-content: space-between; 
+    display: flex; /* Add flex display to arrange containers side by side */
+}
+
+.tpcontainer-column {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+    
+}
+
+@media (max-width: 768px) {
+    .card_rev {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-content {
+        text-align: center;
+    }
+    .revimgBx {
+        margin-bottom: 10px; /* Add space between the image and the content below */
+    }
+}
+
+
+.tpcontainer-row {
+    border: 1px solid #ccc; 
+    padding: 10px; /* Add padding for spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow to make it look like a card */
+    border-radius: 10px; /* Add border-radius to match card style */
+    margin-right: 20px; 
+}
+
+.tpcontainer-row:last-child {
+    margin-right: 0; /* Remove margin from last container to avoid extra spacing */
+}
+
+#tpcontainer-A {
+    background-color: rgb(243, 240, 240);
+    min-height: 100px;
+    max-width: 100%;
+    min-width: 200px; /* Set max width for container A */
+}
+#tpInnerContainer-A {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: flex-start; /* Align items at the start of the container */
+    transition: height 0.3s ease; /* Smooth transition for height property */
+}
+
+/* #tpInnerContainer-A:hover {
+    height: 500px;
+} */
+
+#tpcontainer-B {
+    /* background-color: #62ff5a; */
+    min-height: 100px;
+    max-width: 100%;
+    min-width: 200px;
+}
+
+.Tp-row {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Adjust as needed */
+    margin-top: 20px; /* Add margin as needed */
+}
+
+@media screen and (max-width: 700px) {
+    .Tp-row {
+        flex-direction: column;
+        max-width: 100%; /* Change to column layout on mobile devices */
+    }
+    .TPdetails{
+        max-width: 100%;
+    }
+
+    #tpcontainer-A,
+    #tpcontainer-B,.card-Tp {
+        max-width: 100%; /* Make both containers full width on mobile */
+        margin-bottom: 20px;
+        margin-right: 0; /* Add spacing between the containers */
+    }
+
+    #tpcontainer-A {
+        width: 300px;
+        max-width: 100%;
+        
+    }
+
+    #tpcontainer-B {
+        width: 300px; 
+        max-width: 400px;/* Set max width for container B on small screens */
+    }
+
+    #tpInnerContainer-A {
+        display: flex;
+        flex-wrap: nowrap; 
+        overflow-x: auto; /* Enable horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+        scrollbar-width: thin; /* Adjust scrollbar width as needed */
+        scrollbar-color: #ccc transparent; /* Adjust scrollbar color as needed */
+        padding-bottom: 10px; /* Add some padding at the bottom to avoid hidden content */
+    }
+
+    .session-card {
+        flex: 0 0 60%; /* Set the width of each card to 50% of the container */
+        margin: 10px 5px;
+    }
+    .card-Tp {
+        width: 100%; /* Set width to 100% */
+        max-width: 390px; /* Limit maximum width */
+        margin-bottom: 20px;
+        margin-right: 0; /* Add spacing between the containers */
+    }
+    
+    
+}
+
+.container-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between; /* Add space between elements */
+}
+
+.container-header h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.container-header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.sessBtn {
+    padding-top: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sessBtn .addBtn button {
+    /* padding: 10px 30px; */
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background: #ff5f95;
+    color: #fff;
+    cursor: pointer;
+  }
+  .sessBtn button {
+    padding: 8px 16px;
+    background-color: #007bff; /* Change to your desired button color */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sessBtn button:hover {
+    background-color: #0056b3; /* Change to your desired button hover color */
+  }
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*seesion card*/
+/*-------------------------------------------------------------------------------------*/
+
+.session-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease; 
+}
+
+.session-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    color: #706cf3;
+}
+
+.session-card.no-hover:hover {
+    pointer-events: none;
+    cursor: default;
+}
+
+.session-card p {
+    flex: 0 0 100%;
+    margin: 10px 0;
+}
+
+.session-card button {
+    background-color:  #4923c8;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.session-card button:hover {
+    background-color: #dc3545;
+}
+
+.tpcontainer-column .session-card {
+    /* flex-basis: calc(33.33% - 20px); Adjust card width to fit three cards per row */
+    margin-bottom: 20px;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*Home card-body Card*/
+/*-------------------------------------------------------------------------------------*/
+
+.Hsession-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.Hsessionimage {
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    text-align: center; /* Center the image horizontally */
+  }
+  
+  .cardhomesessionimg {
+    width: 150px; /* Make the image fill the container div */
+    height: 150px; /* Maintain the aspect ratio */
+    max-width: 150px; /* Ensure the image doesn't exceed its container */
+  }
+
+  .hscard {
+    margin-left: 10px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition effect for shadow */
+  }
+
+
+  /*Home Tutor image Hover card-body Card*/
+  .hscard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+
+  /*Student Card Hover */
+
+  .HSsession-card {
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+
+.HSsession-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
+    transform: scale(1.01);
+    border-radius: 20px;
+    background-color: #eeeeee;
+}
+
+.hscard {
+    margin-left: 10px;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Add some border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition effect for shadow */
+  }
+
+    .hscard:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+
+  .Hsession-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+  
+  .hscard-img-top {
+    width: 100%; /* Ensure image fills the card horizontally */
+    height: auto; /* Maintain aspect ratio */
+    /* border-top-left-radius: 8px; 
+    border-top-right-radius: 8px; */
+    border-radius: 20px;
+  }
+
+
+  /*
+  innerContainer B's scrollable Effect
+  */
+
+  /* Add these styles to your existing CSS file */
+
+/* General styles */
+#tpInnerContainer-B {
+    max-height: 400px; /* Adjust the height as needed */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 10px;
+}
+
+/* Hide the scrollbar but allow scrolling */
+#tpInnerContainer-B::-webkit-scrollbar {
+    width: 0px;  /* Hide the scrollbar */
+    height: 0px; /* Hide the scrollbar */
+}
+
+#tpInnerContainer-B {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#tpInnerContainer-B::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the scrollbar thumb */
+    border-radius: 10px;
+}
+
+#tpInnerContainer-B::-webkit-scrollbar-track {
+    background-color: transparent; /* Hide the scrollbar track */
+}
+
+

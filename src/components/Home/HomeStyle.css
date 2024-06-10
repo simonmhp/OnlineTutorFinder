@@ -1,0 +1,65 @@
+
+.box{ 
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.filter{
+    height: 40px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #fff;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.box:hover input{
+    width: 200px;
+}
+
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.filter input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas{
+    color: #1daf;
+    font-size: 18px;
+}
+
+.Hcard-header {
+    background-color: #f0f0f0; /* Darker background color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    display: flex;
+    justify-content: flex-end; /* Items start from right-end */
+    align-items: center;
+    height: 50px; 
+  }
+
+  .filter button {
+    border: 1px solid transparent; 
+    background-color: #ffffff; 
+    color: #000000; /* Set text color */
+  }
