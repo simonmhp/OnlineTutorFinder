@@ -21,8 +21,15 @@ Some Additional Fuctionalities:
   - Student or Tutor can block one another.
   - and soon...
 
- Few SceenShots:
-![Screenshot 2024-06-10 113910](https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/696958f4-3a4c-4681-9748-62dd6949f132)
-![Screenshot 2024-06-10 113947](https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/5dced95e-09f5-4be2-95e6-f4fab6ebd0e8)
-![Screenshot 2024-06-10 113929](https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/822dc1d4-a638-4295-a1c3-8250c5477da3)
-![Screenshot 2024-06-10 113602](https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/2348a1be-b92b-47c2-b391-769acaa14fe2)
+## Few Screenshots:
+
+<p align="center">
+  <img src="https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/696958f4-3a4c-4681-9748-62dd6949f132" width="45%" />
+  <img src="https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/5dced95e-09f5-4be2-95e6-f4fab6ebd0e8" width="45%" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/822dc1d4-a638-4295-a1c3-8250c5477da3" width="45%" />
+  <img src="https://github.com/simonmhp/OnlineTutorFinder/assets/78194374/2348a1be-b92b-47c2-b391-769acaa14fe2" width="45%" />
+</p>
+
